@@ -20,7 +20,7 @@ class Cell extends Component {
             <div 
                 className="cell" 
                 style={{backgroundColor: this.state.color}} 
-                onClick={this.change}>   
+                onClick={ (e) =>this.change(e) }>   
             </div>
         )
     }
