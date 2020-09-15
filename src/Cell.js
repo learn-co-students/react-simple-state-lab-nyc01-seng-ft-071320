@@ -16,7 +16,6 @@ class Cell extends React.Component {
   }
   
   render() {
-    console.log(this.state.color)
     return <div onClick={this.changeColor} className="cell" style={{backgroundColor: `${this.state.color}`}}></div>
   }
 }
