@@ -7,11 +7,8 @@ class Cell extends React.Component {
         color: this.props.value
     }
 
-    clickHandler = (e) => {
-        console.log("clicked", e.target.style.backgroundColor)
-        e.target.style.backgroundColor = '#333'
-        let clickedColor = '#333'
-        this.setState({color: clickedColor})
+    clickHandler = () => {
+        this.setState({color: '#333'})
 
     }
     
